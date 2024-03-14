@@ -1,8 +1,8 @@
 #include<iostream.h>
-#include<conio.h>
-#include<string.h>
+using namespace std;
+#include<string>
 
-void reverse(char st[],int);
+int reverse(char st[],int);
 
 void main()
 {
@@ -13,9 +13,10 @@ void main()
     int len=strlen(str);
     reverse(str,len);
     getch();
+    return 0;
 }
 
-void reverse(char str1[],int length)
+int reverse(char str1[],int length)
 {
     int mid=length/2;
     length--;
@@ -28,4 +29,5 @@ void reverse(char str1[],int length)
     }
     cout<<"\t\t Reverse of the string is : ";
     cout<<str1;
+    return 0;
 }
