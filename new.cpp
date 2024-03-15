@@ -22,14 +22,6 @@ int main()
     //     cout << i << "\n";
     // }
     
-    int store=1,n,fact;
-    cout<<"\nEnter the number you want factorial of: ";
-    cin>>n;
-    for (int i=n;i=1;i--)
-    {
-        store=;
-        fact=i;
-    }
 
     return 0;
 }
